@@ -1,0 +1,17 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/vyges/pwm-controller
+  branch: main
+  commit: 73891f212c86270b907dd38e926e18fdd32b79a2
+import:
+  rtl:
+    - path: "rtl"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
